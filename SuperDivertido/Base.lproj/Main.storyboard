@@ -25,6 +25,9 @@
                                     <action selector="superDivertidoBtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tsY-et-RhV"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fun-App" translatesAutoresizingMaskIntoConstraints="NO" id="IYm-kH-GS3">
+                                <rect key="frame" x="67" y="96" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -34,4 +37,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Fun-App" width="639" height="116"/>
+    </resources>
 </document>
