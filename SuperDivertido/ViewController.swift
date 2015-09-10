@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIAlertViewDelegate {
 
+    @IBAction func superDivertidoBtn(sender: AnyObject) {
+        
+       let alerta = UIAlertView (title: "DIVERSION A TOPE", message: "Estoy intentando ser Divertido", delegate: nil, cancelButtonTitle: "OK")
+        
+        alerta.show()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
