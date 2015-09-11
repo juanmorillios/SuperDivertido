@@ -14,6 +14,7 @@
 		B90C691C1BA1D66D00192C7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90C691A1BA1D66D00192C7D /* LaunchScreen.xib */; };
 		B90C69281BA1D66E00192C7D /* SuperDivertidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C69271BA1D66E00192C7D /* SuperDivertidoTests.swift */; };
 		B90C69321BA1E5A000192C7D /* Fun-App.png in Resources */ = {isa = PBXBuildFile; fileRef = B90C69311BA1E5A000192C7D /* Fun-App.png */; };
+		B90C69341BA1EEC300192C7D /* 22800-NU4085.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90C69331BA1EEC300192C7D /* 22800-NU4085.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		B90C69261BA1D66E00192C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B90C69271BA1D66E00192C7D /* SuperDivertidoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDivertidoTests.swift; sourceTree = "<group>"; };
 		B90C69311BA1E5A000192C7D /* Fun-App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fun-App.png"; sourceTree = "<group>"; };
+		B90C69331BA1EEC300192C7D /* 22800-NU4085.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22800-NU4085.jpg"; sourceTree = "<group>"; };
+		B90C69371BA20C3800192C7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				B90C69131BA1D66D00192C7D /* ViewController.swift */,
 				B90C69151BA1D66D00192C7D /* Main.storyboard */,
 				B90C69181BA1D66D00192C7D /* Images.xcassets */,
+				B90C69331BA1EEC300192C7D /* 22800-NU4085.jpg */,
 				B90C69311BA1E5A000192C7D /* Fun-App.png */,
 				B90C691A1BA1D66D00192C7D /* LaunchScreen.xib */,
 				B90C690F1BA1D66D00192C7D /* Supporting Files */,
@@ -195,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90C69341BA1EEC300192C7D /* 22800-NU4085.jpg in Resources */,
 				B90C69171BA1D66D00192C7D /* Main.storyboard in Resources */,
 				B90C69321BA1E5A000192C7D /* Fun-App.png in Resources */,
 				B90C691C1BA1D66D00192C7D /* LaunchScreen.xib in Resources */,
@@ -244,6 +249,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B90C69161BA1D66D00192C7D /* Base */,
+				B90C69371BA20C3800192C7D /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
