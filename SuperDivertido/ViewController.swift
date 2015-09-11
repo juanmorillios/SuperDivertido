@@ -31,8 +31,8 @@ class ViewController: UIViewController, UIAlertViewDelegate {
     @IBAction func superDivertidoBtn(sender: AnyObject) {
         
         funyLogoImg.hidden = false
-        soyDivertidoBtn.hidden = true
-        backGroundImg.hidden = false
+        soyDivertidoBtn.hidden = false
+        backGroundImg.hidden = true
         
         
         //Muestro una alerta para probrar que todo esta funcionando OK.
